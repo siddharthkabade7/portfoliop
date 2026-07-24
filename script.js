@@ -133,11 +133,7 @@ function typeWriter(element, text, speed = 100, callback) {
 
 window.addEventListener('load', () => {
   const nameEl = document.getElementById('typedName');
-<<<<<<< HEAD
   if (nameEl) typeWriter(nameEl, 'Siddharth', 120);
-=======
-  typeWriter(nameEl, 'Siddharth', 120);
->>>>>>> 3aea1d244ac2b4afa993c42ff46fe465fca43d23
 });
 
 /* ─── TAGLINE ROTATION ─── */
