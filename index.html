@@ -1,0 +1,261 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Aspiring Web Developer & AI Learner</title>
+  <meta name="description"
+    content="Personal portfolio of an aspiring web developer and AI learner. Explore projects, skills, and achievements." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
+
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ─── CURSOR ─── -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- ─── NAVBAR ─── -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-brand">
+      <span class="brand-icon">&lt;/&gt;</span>
+      <span class="brand-text">Dev<span class="accent">Portfolio</span></span>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#hero" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Work</a></li>
+      <li><a href="#achievements" class="nav-link">Achievements</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ─── HERO ─── -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+      <div class="particles" id="particles"></div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Available for opportunities
+      </div>
+      <h1 class="hero-title">
+        Hi, I'm <span class="name-highlight" id="typedName"></span>
+      </h1>
+      <div class="hero-tagline">
+        <span class="tagline-text">Aspiring </span>
+        <span class="tagline-rotate" id="taglineRotate">Web Developer</span>
+        <span class="tagline-cursor">|</span>
+      </div>
+      <p class="hero-sub">Building digital experiences with code & creativity.<br />Exploring the frontier of Artificial
+        Intelligence.</p>
+      <div class="hero-buttons">
+        <a href="work.html" class="btn btn-primary">
+          <i class="fas fa-eye"></i> View Work
+          <span class="btn-ripple"></span>
+        </a>
+        <a href="contact.html" class="btn btn-outline">
+          <i class="fas fa-paper-plane"></i> Contact Me
+        </a>
+      </div>
+    </div>
+
+    <div class="scroll-indicator" id="scrollIndicator">
+      <div class="scroll-mouse">
+        <div class="scroll-wheel"></div>
+      </div>
+      <span>Scroll down</span>
+    </div>
+
+    <!-- floating tech pills -->
+    <div class="float-pill pill-1"><i class="fab fa-html5"></i> HTML5</div>
+    <div class="float-pill pill-2"><i class="fab fa-css3-alt"></i> CSS3</div>
+    <div class="float-pill pill-3"><i class="fab fa-python"></i> Python</div>
+    <div class="float-pill pill-4"><i class="fas fa-brain"></i> AI</div>
+  </section>
+
+<<<<<<< HEAD
+  <section class="page-hero">
+    <div class="container">
+      <span class="section-badge">Explore my journey</span>
+      <h1 class="section-title">Welcome to my <span class="accent">portfolio</span></h1>
+      <p class="hero-sub">Pick a page to discover my story, skills, projects, achievements, or get in touch.</p>
+=======
+  <!-- ─── ABOUT ─── -->
+  <section class="about" id="about">
+    <div class="section-header" data-aos="fade-up">
+      <span class="section-badge">Who am I?</span>
+      <h2 class="section-title">About <span class="accent">Me</span></h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-card glass" data-aos="fade-right" data-aos-delay="100">
+        <div class="about-avatar">
+          <div class="avatar-ring"></div>
+          <div class="avatar-inner">
+            <i class="fas fa-user-astronaut"></i>
+          </div>
+          <div class="avatar-status">
+            <i class="fas fa-circle"></i> Open to work
+          </div>
+        </div>
+
+        <div class="about-info">
+          <div class="info-item" data-aos="fade-up" data-aos-delay="150">
+            <i class="fas fa-id-card"></i>
+            <div>
+              <span class="info-label">Siddharth Kabade</span>
+              <span class="info-value">Siddharth</span>
+            </div>
+          </div>
+          <div class="info-item" data-aos="fade-up" data-aos-delay="200">
+            <i class="fas fa-birthday-cake"></i>
+            <div>
+              <span class="info-label">Date of Birth</span>
+              <span class="info-value">January 1, 2005</span>
+            </div>
+          </div>
+          <div class="info-item" data-aos="fade-up" data-aos-delay="250">
+            <i class="fas fa-star"></i>
+            <div>
+              <span class="info-label">Age</span>
+              <span class="info-value">21 Years</span>
+            </div>
+          </div>
+          <div class="info-item" data-aos="fade-up" data-aos-delay="300">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <span class="info-label">Location</span>
+              <span class="info-value">India</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-text-side" data-aos="fade-left" data-aos-delay="100">
+        <h3>A Passionate Developer &amp; <span class="accent">AI Enthusiast</span></h3>
+        <p>I'm an aspiring web developer and AI learner with a passion for building clean, functional, and visually
+          stunning digital experiences. I believe in the power of technology to solve real-world problems and am
+          constantly pushing the boundaries of what's possible.</p>
+        <p>Currently diving deep into Artificial Intelligence and Machine Learning, I enjoy combining creativity with
+          logic to craft solutions that are both elegant and effective. Every project is an opportunity to learn
+          something new.</p>
+
+        <h4 class="hobbies-title"><i class="fas fa-heart"></i> My Hobbies</h4>
+        <div class="hobbies-grid">
+          <div class="hobby-card" data-aos="zoom-in" data-aos-delay="100">
+            <div class="hobby-icon"><i class="fas fa-music"></i></div>
+            <span>Singing</span>
+          </div>
+          <div class="hobby-card" data-aos="zoom-in" data-aos-delay="150">
+            <div class="hobby-icon"><i class="fas fa-chess"></i></div>
+            <span>Chess</span>
+          </div>
+          <div class="hobby-card" data-aos="zoom-in" data-aos-delay="200">
+            <div class="hobby-icon"><i class="fas fa-theater-masks"></i></div>
+            <span>Acting</span>
+          </div>
+          <div class="hobby-card" data-aos="zoom-in" data-aos-delay="250">
+            <div class="hobby-icon"><i class="fas fa-baseball-ball"></i></div>
+            <span>Cricket</span>
+          </div>
+          <div class="hobby-card" data-aos="zoom-in" data-aos-delay="300">
+            <div class="hobby-icon"><i class="fas fa-futbol"></i></div>
+            <span>Football</span>
+          </div>
+          <div class="hobby-card" data-aos="zoom-in" data-aos-delay="350">
+            <div class="hobby-icon"><i class="fas fa-gamepad"></i></div>
+            <span>Gaming</span>
+          </div>
+        </div>
+
+        <div class="ai-interest" data-aos="fade-up" data-aos-delay="400">
+          <i class="fas fa-robot"></i>
+          <p>Deeply fascinated by <strong>Artificial Intelligence</strong> and its potential to reshape our world.
+            Currently learning Machine Learning, Neural Networks, and building AI-powered applications.</p>
+        </div>
+      </div>
+>>>>>>> 3aea1d244ac2b4afa993c42ff46fe465fca43d23
+    </div>
+  </section>
+
+  <section>
+    <div class="page-grid">
+      <a href="about.html" class="page-card glass" style="padding:24px; display:block;">
+        <h3>About</h3>
+        <p>Learn more about who I am, my interests, and what drives my work.</p>
+      </a>
+      <a href="skills.html" class="page-card glass" style="padding:24px; display:block;">
+        <h3>Skills</h3>
+        <p>See the tools, technologies, and strengths I’m building with.</p>
+      </a>
+      <a href="work.html" class="page-card glass" style="padding:24px; display:block;">
+        <h3>Work</h3>
+        <p>Explore the web, AI, and Python projects I’ve built so far.</p>
+      </a>
+      <a href="achievements.html" class="page-card glass" style="padding:24px; display:block;">
+        <h3>Achievements</h3>
+        <p>Review the milestones, certificates, and accomplishments I’m proud of.</p>
+      </a>
+      <a href="contact.html" class="page-card glass" style="padding:24px; display:block;">
+        <h3>Contact</h3>
+        <p>Reach out for work, collaboration, or a simple hello.</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─── -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="brand-icon">&lt;/&gt;</span>
+        <span class="brand-text">Dev<span class="accent">Portfolio</span></span>
+      </div>
+      <p class="footer-copy">Made with Love & AI</p>
+          
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="work.html">Work</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <a href="#hero" class="back-top" id="backTop" title="Back to top">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+  </footer>
+
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

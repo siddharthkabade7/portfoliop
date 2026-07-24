@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | DevPortfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-brand">
+      <span class="brand-icon">&lt;/&gt;</span>
+      <span class="brand-text">Dev<span class="accent">Portfolio</span></span>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="nav-link">Home</a></li>
+      <li><a href="about.html" class="nav-link active">About</a></li>
+      <li><a href="skills.html" class="nav-link">Skills</a></li>
+      <li><a href="work.html" class="nav-link">Work</a></li>
+      <li><a href="achievements.html" class="nav-link">Achievements</a></li>
+      <li><a href="contact.html" class="nav-link">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  
+
+  <section class="about" id="about">
+    <div class="section-header" data-aos="fade-up">
+      <span class="section-badge">Who am I?</span>
+      <h2 class="section-title">About <span class="accent">Me</span></h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-card glass" data-aos="fade-right" data-aos-delay="100">
+        <div class="about-avatar">
+          <div class="avatar-ring"></div>
+          <div class="avatar-inner">
+            <img src="profilepic.png" alt="Siddharth Atul Kabade" class="avatar-image" />
+          </div>
+          <div class="avatar-status">
+            <i class="fas fa-circle"></i> Open to work
+          </div>
+        </div>
+
+        <div class="about-info">
+          <div class="info-item" data-aos="fade-up" data-aos-delay="150">
+            <i class="fas fa-id-card"></i>
+            <div>
+              <span class="info-label">Full Name</span>
+              <span class="info-value">Siddharth Atul Kabade</span>
+            </div>
+          </div>
+          <div class="info-item" data-aos="fade-up" data-aos-delay="200">
+            <i class="fas fa-birthday-cake"></i>
+            <div>
+              <span class="info-label">Date of Birth</span>
+              <span class="info-value">August 17, 2007</span>
+            </div>
+          </div>
+          <div class="info-item" data-aos="fade-up" data-aos-delay="250">
+            <i class="fas fa-star"></i>
+            <div>
+              <span class="info-label">Age</span>
+              <span class="info-value">19 Years</span>
+            </div>
+          </div>
+          <div class="info-item" data-aos="fade-up" data-aos-delay="300">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <span class="info-label">Location</span>
+              <span class="info-value">Pune,India</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-text-side" data-aos="fade-left" data-aos-delay="100">
+        <h3>Focused on <span class="accent">Web Development</span> and <span class="accent">Gen AI</span></h3>
+        <p>I’m currently building my foundation in web development while strengthening my problem-solving skills through DSA in C++. I’m also learning Git and GitHub to work more professionally and collaborate effectively.</p>
+        <p>I’m exploring Generative AI and actively looking for opportunities to participate in hackathons, build real-world projects, and grow as a developer.</p>
+
+        <h4 class="hobbies-title"><i class="fas fa-heart"></i> My Interests</h4>
+        <div class="hobbies-grid">
+          <div class="hobby-card" data-aos="zoom-in" data-aos-delay="100">
+            <div class="hobby-icon"><i class="fas fa-music"></i></div>
+            <span>Chess</span>
+          </div>
+          <div class="hobby-card" data-aos="zoom-in" data-aos-delay="150">
+            <div class="hobby-icon"><i class="fas fa-chess"></i></div>
+            <span>Singing</span>
+          </div>
+          <div class="hobby-card" data-aos="zoom-in" data-aos-delay="200">
+            <div class="hobby-icon"><i class="fas fa-theater-masks"></i></div>
+            <span>Acting</span>
+          </div>
+          <div class="hobby-card" data-aos="zoom-in" data-aos-delay="250">
+            <div class="hobby-icon"><i class="fas fa-baseball-ball"></i></div>
+            <span>Cricket</span>
+          </div>
+          <div class="hobby-card" data-aos="zoom-in" data-aos-delay="300">
+            <div class="hobby-icon"><i class="fas fa-futbol"></i></div>
+            <span>Football</span>
+          </div>
+          <div class="hobby-card" data-aos="zoom-in" data-aos-delay="350">
+            <div class="hobby-icon"><i class="fas fa-gamepad"></i></div>
+            <span>Gaming</span>
+          </div>
+        </div>
+
+        <div class="ai-interest" data-aos="fade-up" data-aos-delay="400">
+          <i class="fas fa-robot"></i>
+          <p>Deeply interested in <strong>Generative AI</strong>, modern web development, and building impactful solutions. I’m always eager to learn, build, and take part in collaborative opportunities like hackathons.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

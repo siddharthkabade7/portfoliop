@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Achievements | DevPortfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-brand">
+      <span class="brand-icon">&lt;/&gt;</span>
+      <span class="brand-text">Dev<span class="accent">Portfolio</span></span>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="nav-link">Home</a></li>
+      <li><a href="about.html" class="nav-link">About</a></li>
+      <li><a href="skills.html" class="nav-link">Skills</a></li>
+      <li><a href="work.html" class="nav-link">Work</a></li>
+      <li><a href="achievements.html" class="nav-link active">Achievements</a></li>
+      <li><a href="contact.html" class="nav-link">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  
+
+  <section class="achievements" id="achievements">
+    <div class="section-header" data-aos="fade-up">
+      <span class="section-badge">Milestones</span>
+      <h2 class="section-title">My <span class="accent">Achievements</span></h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="achievements-grid">
+      <div class="achievement-card glass" data-aos="flip-left" data-aos-delay="100">
+        <div class="ach-icon" style="--clr:#f59e0b">
+          <i class="fas fa-certificate"></i>
+        </div>
+        <h3>HTML5 & CSS3 Mastery</h3>
+        <p>Completed comprehensive HTML5 and CSS3 course covering modern web development techniques and responsive design principles.</p>
+        <div class="ach-meta">
+          <span><i class="fas fa-calendar"></i> 2024</span>
+          <span class="ach-badge gold">Certificate</span>
+        </div>
+      </div>
+
+      <div class="achievement-card glass" data-aos="flip-left" data-aos-delay="200">
+        <div class="ach-icon" style="--clr:#3b82f6">
+          <i class="fab fa-python"></i>
+        </div>
+        <h3>Python Programming</h3>
+        <p>Earned Python programming certification covering fundamentals, OOP, data structures, and real-world application development.</p>
+        <div class="ach-meta">
+          <span><i class="fas fa-calendar"></i> 2024</span>
+          <span class="ach-badge blue">Certificate</span>
+        </div>
+      </div>
+
+      <div class="achievement-card glass" data-aos="flip-left" data-aos-delay="300">
+        <div class="ach-icon" style="--clr:#a855f7">
+          <i class="fas fa-brain"></i>
+        </div>
+        <h3>AI & Machine Learning</h3>
+        <p>Completed AI/ML foundations course exploring neural networks, deep learning, computer vision, and natural language processing.</p>
+        <div class="ach-meta">
+          <span><i class="fas fa-calendar"></i> 2025</span>
+          <span class="ach-badge purple">Certificate</span>
+        </div>
+      </div>
+
+      <div class="achievement-card glass" data-aos="flip-left" data-aos-delay="400">
+        <div class="ach-icon" style="--clr:#10b981">
+          <i class="fas fa-project-diagram"></i>
+        </div>
+        <h3>Full-Stack Project Launch</h3>
+        <p>Successfully launched a full-stack bookstore platform with database integration, authentication, and admin dashboard features.</p>
+        <div class="ach-meta">
+          <span><i class="fas fa-calendar"></i> 2025</span>
+          <span class="ach-badge green">Project</span>
+        </div>
+      </div>
+
+      <div class="achievement-card glass" data-aos="flip-left" data-aos-delay="500">
+        <div class="ach-icon" style="--clr:#ef4444">
+          <i class="fas fa-chess-queen"></i>
+        </div>
+        <h3>Chess Tournament Winner</h3>
+        <p>Won the inter-college chess tournament demonstrating strategic thinking, patience, and problem-solving under pressure.</p>
+        <div class="ach-meta">
+          <span><i class="fas fa-calendar"></i> 2023</span>
+          <span class="ach-badge red">Trophy</span>
+        </div>
+      </div>
+
+      <div class="achievement-card glass" data-aos="flip-left" data-aos-delay="600">
+        <div class="ach-icon" style="--clr:#f97316">
+          <i class="fas fa-star"></i>
+        </div>
+        <h3>Open Source Contributor</h3>
+        <p>Contributed to multiple open source repositories, improving documentation and fixing bugs in community-driven projects.</p>
+        <div class="ach-meta">
+          <span><i class="fas fa-calendar"></i> 2025</span>
+          <span class="ach-badge orange">Open Source</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
